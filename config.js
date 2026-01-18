@@ -10,7 +10,7 @@ function convertToBool(text, fault = 'true') {
 
 module.exports = {
     // ===== BOT CORE SETTINGS =====
-    SESSION_ID: process.env.SESSION_ID || "IK~lR1Wnaxa#8PMTxs-zCNJIoUuk8fdzRBMsfoaKWK8O3qiCLfel7I8",  // Your bot's session ID (keep it secure)
+    SESSION_ID: process.env.SESSION_ID || "IK~m4Q02RoK#udw2lR9QTlNXTssuyF7BfvBXCbA0-zBBrnQ9uFSJEWU",  // Your bot's session ID (keep it secure)
     PREFIX: getConfig("PREFIX") || ",",  // Command prefix (e.g., "., / ! * - +")
     CHATBOT: getConfig("CHATBOT") || "off", // on/off chat bot 
     BOT_NAME: process.env.BOT_NAME || getConfig("BOT_NAME") || "DARKZONE-MD",  // Bot's display name
@@ -19,7 +19,7 @@ module.exports = {
     BAILEYS: process.env.BAILEYS || "@whiskeysockets/baileys",  // Bot's BAILEYS
 
     // ===== OWNER & DEVELOPER SETTINGS =====
-    OWNER_NUMBER: process.env.OWNER_NUMBER || "94710927228",  // Owner's WhatsApp number
+    OWNER_NUMBER: process.env.OWNER_NUMBER || "94705505943",  // Owner's WhatsApp number
     OWNER_NAME: process.env.OWNER_NAME || getConfig("OWNER_NAME") || "𝐸𝑅𝐹𝒜𝒩 𝒜𝐻𝑀𝒜𝒟",           // Owner's name
     DEV: process.env.DEV || "923306137477",                     // Developer's contact number
     DEVELOPER_NUMBER: '923306137477@s.whatsapp.net',            // Developer's WhatsApp ID
